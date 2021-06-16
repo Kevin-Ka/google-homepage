@@ -1,25 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+/* My avatar picture from Github instead of Gmail */
 .avatar{
     width: 32px;
     height: 32px;
     border-radius: 50%;
+
 }
-.top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-end;
-    font-size: 14px;
+.avatar:hover {
+    border:4px solid #efefef;
+    margin: -4px;
 }
-.right1 {
-    margin-left: auto;
+/* Making the top bar look like google with flexbox and margin modification */
+.Github {
+    height: 32px;
+    padding:8px;
+    padding-right: 12px;
+    position:static;
 }
 
-.left {
-    padding-left: 10px;
+.topnav {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    line-height: 24px;
+    padding: 6px;
 }
-.right {
-    padding: 15px;
+.About{
+    margin-left: 15px;
+    margin-right: 5px;
+    padding: 5px;
 }
+.Store{
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+.Gmail {
+    margin-left: auto;
+    padding-left: 15px;
+}
+.Images {
+    padding: 0px 15px 0px 15px ;
+}
+.Gmail, .Images {
+    font-size: 13px;
+}
+
+/* removing the underline from the links and making the underline appear bz hovering over them */
 a:-webkit-any-link {
     color: rgba(0,0,0,0.87);
     cursor: pointer;
@@ -40,6 +69,7 @@ a:hover {
     height: 40px;
     width: 40px;
     padding: 8px;
+    margin: 4px;
     cursor: pointer;
     text-decoration: none;
     border-radius: 50%;
