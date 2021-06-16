@@ -1,0 +1,53 @@
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 14px;
+}
+.right1 {
+    margin-left: auto;
+}
+
+.left {
+    padding-left: 10px;
+}
+.right {
+    padding: 15px;
+}
+a:-webkit-any-link {
+    color: rgba(0,0,0,0.87);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+.Dots {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.Dots:hover {
+    background-color: #efefef;
+}
+path {
+    fill: #5f6368;
+    opacity: 1;
+}
